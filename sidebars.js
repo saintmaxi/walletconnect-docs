@@ -584,6 +584,16 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Web3Modal',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            'ios/web3modal/installation',
+            'ios/web3modal/usage',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Web3Inbox',
           collapsed: true,
           collapsible: true,
